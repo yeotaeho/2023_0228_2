@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>산들해반찬</title>
+<link href="css/sub.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+<style>
+  /*메인*/
+  #sub_content {width:1160px; height:9600px; padding:50px 0px 0px; background-color: darkslategrey; margin:0 auto;}
+
+  /*메인이미지*/
+  #mainimg {width:1160px; height:550px; background-color: cadetblue;}
+  #mainimg > .mainimgbox {width:350px; height:430px; background-color: brown; float:left;}
+  #mainimg > .textbox {width:550px; height:550px; background-color: aliceblue; float:right;}
+  #mainimg > .textbox > table,tr {width:550px; height:60px; background-color:aquamarine; float:right; padding:0px 0px 15px; margin:0px 0px 0px 0px;}
+  #mainimg > .textbox > table > tr,.d1 {margin:0px 0px 0px 0px; background-color: beige; height: 140px;}
+  #mainimg > .textbox > table > tr,.d1 > td {display: block;}
+  #mainimg > .textbox > table > tr,.d1 > td > h3 {font-size: 31px; color:#303030; font-weight: bold;}
+  #mainimg > .textbox > table > tr,.d1 > td > p {padding:35px 0px 0px; font-size:16px; color: #828282;}
+  #mainimg > .textbox > table > tr,.d1 > td > h4 {padding:15px 0px 0px; color:#333; font-size: 22px;}
+
+  #mainimg > .textbox > table > tr,.d2 {margin:10px 0px 0px 0px; background-color: aqua; border-top:1px solid #ddd ;}
+  #mainimg > .textbox > table > tr,.d2 > td {float: left;}
+  #mainimg > .textbox > table > tr,.d2 > td > h3 {font-size:15px; margin:15px 0px 0px 0px; color: #666; font-weight: bold; width: 170px; height:25px; background-color:darkgoldenrod;}
+  #mainimg > .textbox > table > tr,.d2 > td > h4 {margin:15px 0px 0px 0px; font-size:15px; color: #333;font-weight: bold; width: 380px; height:25px; background-color: #ddd; }
+  #mainimg > .textbox > table > tr,.d2 > td > p {font-size:12px; color: #666; margin:0px 0px 0px 170px; line-height:14px;}
+
+  #mainimg > .textbox > table > tr,.d3 {margin:10px 0px 0px 0px; background-color: aliceblue; border-top:1px solid #ddd ;}
+
+  #mainimg > .textbox > table > tr,.d4 {margin:10px 0px 0px 0px; background-color: blueviolet; border-top:1px solid #ddd ;}
+  #mainimg > .textbox > .check_list {width:550px; height:25px; background-color: cornflowerblue; float:right; padding:30px 0px 70px;}
+  #mainimg > .textbox > .text2 {width:550px; height:40px; padding: 130px 0px 0px; background-color: darkgrey; float:right;}
+  #mainimg > .textbox > .text3 {width:550px; height:50px; background-color:wheat; float:right; padding:30px 0px 0px;}
+
+
+  /*추천반찬*/
+  h2 {padding:105px 0px 20px; font-size:24px; font-weight: bold; color: #303030;}
+
+  #imgbox {width:1160px; height:360px;background-color: azure; margin:0 auto;} 
+
+  /*목록*/
+  #list {width:1160px; height:5200px; background-color: burlywood; margin:0 auto; }
+  #listimg {width:1160px; height:5000px; background-color: gold; margin:60px 0px 0px; margin:0 auto;}
+
+  /*상품상세정보*/
+  #deta {width:1160px; height:800px; background-color: chocolate; padding:123px 0px 0px; margin:0 auto;} 
+
+  /*상품후기*/
+  #deta2 {width:1160px; height: 1090px; padding:110px 0px 0px; background-color: cornflowerblue; margin:0 auto;}
+
+  /*주문/배송/취소*/
+  #deta3 {width:1160px; height:830px; background-color: aquamarine; margin:0 auto;}
+
+</style>
+</head>
+<body>
+<div id="header">
+
+  <div class="box">
+    <a href="#">회원가입하고 할인쿠폰 받아가세요!</a>
+  </div>
+
+  <div class="box2">
+
+    <div class="top">
+      <p>수도권 이외 지역 <span>택배배송</span></p>
+    </div>
+
+    <div class="login">
+      <ul>
+        <li><a href="#">로그인</a></li>
+        <li>|</li>
+        <li><a href="#"><span>회원가입</span></a></li>
+        <li>|</li>
+        <li><a href="#">배송안내</a></li>             
+      </ul>
+
+    </div>
+
+    <div id="logo">
+      <a href="#"><img src="img/logo.jpg" alt="asd"></a>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#">=</a></li>
+      <li><a href="#">모든반찬</a></li>
+      <li>|</li>
+      <li><a href="#">인기메뉴</a></li>
+      <li><a href="#">신메뉴</a></li>
+      <li><a href="#">브랜드소개</a></li>
+      <li><a href="#">이용가이드</a></li>         
+      <li><a href="#">커뮤니티</a></li>
+    </ul>
+
+    <div class="textbox">
+      <input type="image" src="img/icon2.jpg" alt="검색" class="image1">
+      <input type="image" src="img/icon.jpg" alt="검색" class="image2">
+      <input type="textbox" name="오늘 뭐먹지" class="textbox2" placeholder="오늘 뭐 먹지" autocomplete="off">
+
+    </div>
+  </nav>
+
+</div>
+
+
+
+
+<main id="sub">
+  <div id="sub_content">
+
+    <div id="mainimg">
+      <div class="mainimgbox">
+      <a href="#"><img src="" alt=""></a>
+      </div>
+      <div class="textbox">
+      <table>
+        <tr class="d1">
+      <td><h3>우렁된장찌개_1인분 (400g)</h3></td>
+      <td><p>#영양가득#국내산우렁이</p></td>
+      <td><h4>5,600원</h4></td>
+      </tr>
+
+      <tr class="d2">
+        <td class="box1"><h3>배송</h3></td>
+        <td class="box2"><h4>반찬배송</h4></td>
+        <td class="box3"><p>23시 전 주문 시 내일 아침 7시 전 도착<br>
+        (대구,부산,울산 반찬배송 운영시간 별도 확인)</p></td>
+      </tr>
+
+      <tr class="d3">
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr class="d4">
+        <td></td>
+        <td></td>
+      </tr>
+
+
+      </table>
+      </div>
+    </div>
+
+
+    
+    <h2>추천반찬</h2>
+    
+    <div id="imgbox">
+      
+    </div>
+
+    <div id="list">
+      <div id="listimg">
+
+      </div>
+    </div>
+    <div id="deta">
+
+    </div>
+    <div id="deta2">
+
+    </div>
+    <div id="deta3">
+
+    </div>
+  </div>
+</main>
+
+
+
+
+    <div id="footer2">
+      <div class="ww">
+      <a href="#"><h6>고객행복센터</h6></a>
+      
+      <div class="www">
+        <h1>1577-1759</h1>
+        <a href="#"><img src="img/www1.jpg" alt=""></a>
+        <div class="wwww">
+        <a href="#"><button>1:1문의하기</button></a>
+        </div>
+        <ul>
+          <li>월 ~ 금 : 9시 - 18시</li>
+          <li>점심시간 : 12시 30분 - 13시 30분</li>
+          <li>일요일 : 9시 - 12시 (토요일, 공휴일 휴무)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ww">
+      <a href="#"><h6>공지사항 <span>| 이벤트</span></h6></a>
+      
+      <div class="www">
+        <ul>
+          <a href="#"><li class="tlqkf"> <pre>2023년 3월1일 배송안내[삼일절]                          <span>2023-02-23</span></pre>  </li></a>
+          <a href="#"><li class="tlqkf"> <pre>리뷰적립금 x 2배 - 매일매일 따블!                        <span>2023-02-15</span></pre></li></a>
+          <a href="#"><li class="tlqkf"> <pre>2023년 설날 배송안내                                        <span>2023-01-10</span></pre></li></a>
+          <a href="#"><li class="tlqkf"> <pre>2023년 새해 배송안내 [ 신정 ]                             <span>2022-12-28</span></pre></li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="ww">
+      <a href="#"><h6>산들해 모바일 앱</h6></a>
+      
+      <div class="www">
+        <h2>산들해 SNS 팔로우하여 소식 받으시고<br>
+          다양한 혜택 받아가세요~</h2>
+          <ul>
+        <li><a href="#"><img src="img/i-icon1.jpg" alt=""></a></li>
+        <li><a href="#"><img src="img/i-icon2.jpg" alt=""></a></li>
+      </ul>
+      </div>
+      
+    </div>
+    </div>
+  
+
+
+</div>
+<div id="footer">
+  <div class="q">
+  <div class="qq">
+  <ul>
+    <a href="#"><li>회사소개</li></a>
+    <li>|</li>
+    <a href="#"><li>이용약관</li></a>
+    <li>|</li>
+    <a href="#"><li>개인정보처리방침</li></a>
+    <li>|</li>
+    <a href="#"><li>이용안내</li></a>
+  </ul>
+</div>
+  <div class="qqq">
+    <ul>
+      <a href="#"><li>상호명 : 주식회사 산들해</li></a>
+      <li>|</li>
+      <a href="#"><li>대표자 : 이상경</li></a>
+      <li>|</li>
+      <a href="#"><li>사업자등록번호 : 724-86-01939 사업자번호확인</li></a>
+      <li>|</li>
+      <a href="#"><li>주소 : 서울특별시 양천구 목동서로 349 (센트럴프라자) 지하 1층, 개인정보보호책임자 : 이강섭
+        통신판매업신고번호 : 제2021-서울양천-2012호</li></a>
+      <li>|</li>
+      <a href="#"><li>TEL : 1577-1759</li></a>
+      <li>|</li>
+      <a href="#"><li> E-MAIL : sdhmarketing@naver.com</li></a>
+    </ul>
+    <p>COPYRIGHT© 2021 Hongsfood corp. ALL RIGHT RESERVED. HOSTING BY 엔에이치엔커머스(주). DESIGN BY 디자인위브</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
